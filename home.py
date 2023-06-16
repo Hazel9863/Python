@@ -63,3 +63,5 @@ dt = pd.read_csv("./data/iris.csv")
     st.image("./pic/iris2.jpg")
    else:
     st.image("./pic/iris3.jpg")
+else:
+    st.write("ไม่ทำนาย")

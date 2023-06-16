@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.header('Sudarat')
+st.header('Sudarat Tochamroen 634230036 63/44')
 
 col1, col2, col3 = st.columns(3)
 
@@ -87,3 +87,4 @@ if st.button("ทำนายผล"):
     st.image("./pic/iris3.jpg")
 else:
     st.write("ไม่ทำนาย")
+

@@ -26,7 +26,7 @@ with col3:
    st.header("Setosa")
    st.image("./pic/iris3.jpg")
 
-   html_7 = """
+html_7 = """
 <div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
@@ -37,7 +37,7 @@ st.markdown("")
 dt=pd.read_csv("./data/iris.csv")
 st.write(dt.head(10))
 
-   html_8 = """
+html_8 = """
 <div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>ทำนายข้อมูล</h5></center>
 </div>
